@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Color change</title>
+</head>
+<body>
+	Enter your name:
+	<input type="text" id="color" onblur="myFunction()">
+
+	<p>When you leave the input field, a function is triggered which
+		transforms the input text to upper case.</p>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("color");
+			x.style.borderColor = "red";
+		}
+	</script>
+</body>
+</html>

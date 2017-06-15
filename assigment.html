@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Online Application</title>
+</head>
+<body bgcolor="orange">
+	<h2 align="center">Appication form</h2>
+	<form action="">
+		<table align="center" cellpadding="5">
+			<tr>
+				<td><label>Name:</label></td>
+				<td><input type="text" required></td>
+			</tr>
+			<tr>
+				<td><label>Email:</label></td>
+				<td><input type="email"></td>
+			</tr>
+			<tr>
+				<td><label>Phone Number:</label></td>
+				<td><input type="tel" pattern='[\(]\d{3}[\)][\-]\d{3}[\-]\d{4}'
+					title='Phone Number Format: (999)-999-9999' required></td>
+			</tr>
+			<tr>
+				<td><label>Date-of-birth:</label></td>
+				<td><input type="date" style="width: 159px" required></td>
+			</tr>
+			<tr>
+				<td><label>Gender:</label></td>
+				<td><input type="radio" name="gender" value="Male" required>Male<br>
+					<input type="radio" name="gender" value="Female">Female</td>
+			</tr>
+			<tr>
+				<td><label>City:</label></td>
+				<td><select>
+						<option value="guntur">guntur</option>
+						<option value="vijayawda">vijayawda</option>
+						<option value="vizag">vizag</option>
+						<option value="tirupathi">tirupathi</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><label>State:</label></td>
+				<td><select>
+						<option value="Andhara pradesh">Andhra pradesh</option>
+						<option value="Telangana">Telangana</option>
+				</select></td>
+			</tr>
+			<tr align="center">
+				<td colspan="2"><input type="submit" value="SUBMIT"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
